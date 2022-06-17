@@ -1,1 +1,2 @@
 .\solc-windows.exe ..\resources\SimpleStorage.sol --bin --abi --optimize -o ..\resources\out\
+ web3j generate solidity --a .\resources\out\SimpleStorage.abi --b .\resources\out\SimpleStorage.bin -o .\src\ -p solidity
